@@ -141,7 +141,7 @@ html, body {
 
 .hero__content h1 {
     font-size: clamp(3rem, 4vw, 4rem);
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -225,35 +225,6 @@ html, body {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-    }
-    
-    .hero {
-    background: linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)), url('https://s3-alpha-sig.figma.com/img/1c94/ce29/121bdfa1dd1bfa1cadba3dd92e53e79e?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R9AMzBsNhEA8LiOf3VZy1E0VNsi63fuhFYyJSOZHj6REpkCJ8Pi3htCWdLtLJZXX09pxyRZZn0RgpB7m58vID2HUoDQzsG4cc72hgChuqPg9k697irdZ3FRSHw63~qrtp9vH50z7reaYXQ~~wqOM9RSf7dNKpcnM3qw9~r667jgb8aImBqEkxRgtR3czsEl2EdscE6zXXjmiiMREN-gQU3NNyJ0qPtCZ6l8zo27NKZXaK4vjO~HsgzBKUcCugTgCIKvar81EHHbFltOa1TCfYoklnZmlVgMcT7h~BETGrykMwyNA2BvnLIaIlnQ1M-S3S7t3141171h8yxWuYzppOg__');
-    height: 150vh;
-    background-position: center;
-    background-size: cover;
-    padding: 0.5rem calc((100vw - 1200px)/2);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    }
-
-    .hero__content {
-    color: var(--white);
-    padding: 3rem 1rem;
-    line-height: 1;
-    max-width: 800px; /* Prevents overflow */
-    }
-    
-    .hero__content h1 {
-        font-size: clamp(3rem, 4vw, 4rem);
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .hero__content p {
-        font-size: clamp(1.2rem, 2vw, 1.8rem);
-        margin-bottom: 0.5rem;
     }
     
     .introduction__container {
