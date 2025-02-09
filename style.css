@@ -483,3 +483,12 @@ html, body {
     padding: 0 1rem;
     margin-bottom: 2rem;
 }
+
+.footer {
+    background: var(--darkbrown);
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem calc((100vw - 1300px) / 2);
+    display: flex;
+}
