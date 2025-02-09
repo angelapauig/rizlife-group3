@@ -123,7 +123,7 @@ html, body {
 /* Reference Section */
 .res {
     background: var(--palebrown);
-    height: 750px;
+    height: 1000px;
     width: 100%;
     padding: 5rem calc((100vw - 1300px) / 2);
     color: var(--darkbrown);
