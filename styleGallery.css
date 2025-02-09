@@ -115,10 +115,11 @@
 /* Gallery Section */
 .essay {
     background: var(--palebrown);
-    height: 750px; /* Allow height to expand based on content */
-    min-height: 750px; 
-    color: var(--white);
-    padding: 8rem calc((100vw - 1100px) / 2);
+    height: 750px;
+    width: 100%;
+    padding: 5rem calc((100vw - 1300px) / 2);
+    color: var(--darkbrown);
+    display: flex;
     text-align: center;
 }
 
