@@ -115,7 +115,8 @@
 /* Gallery Section */
 .essay {
     background: var(--palebrown);
-    height: 750px;
+    height: auto; /* Allow height to expand based on content */
+    min-height: 750px; 
     color: var(--white);
     padding: 8rem calc((100vw - 1100px) / 2);
     text-align: center;
