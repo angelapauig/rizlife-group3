@@ -122,7 +122,7 @@ html, body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)), url('https://s3-alpha-sig.figma.com/img/1c94/ce29/121bdfa1dd1bfa1cadba3dd92e53e79e?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R9AMzBsNhEA8LiOf3VZy1E0VNsi63fuhFYyJSOZHj6REpkCJ8Pi3htCWdLtLJZXX09pxyRZZn0RgpB7m58vID2HUoDQzsG4cc72hgChuqPg9k697irdZ3FRSHw63~qrtp9vH50z7reaYXQ~~wqOM9RSf7dNKpcnM3qw9~r667jgb8aImBqEkxRgtR3czsEl2EdscE6zXXjmiiMREN-gQU3NNyJ0qPtCZ6l8zo27NKZXaK4vjO~HsgzBKUcCugTgCIKvar81EHHbFltOa1TCfYoklnZmlVgMcT7h~BETGrykMwyNA2BvnLIaIlnQ1M-S3S7t3141171h8yxWuYzppOg__');
+    background: linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)), url('images/home_cover.png');
     height: 105vh;
     background-position: center;
     background-size: cover;
@@ -453,7 +453,7 @@ html, body {
         rgba(167, 95, 2, 0.596) 0%,
         rgba(109, 63, 2, 0.596) 35%,
         rgba(167, 95, 2, 0.596) 100%), 
-        url('https://s3-alpha-sig.figma.com/img/8fbf/4c59/70db3cf859a3c6872eb2aeede52bc607?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=E3SKaioU2F7fsdhUCW912v5DcEsFHCL7JL5UkhBL7dYgteA5INRcL5uINSXk6ZWDjACP~2Ec3KfIm0PBsF1BvcEOtZshbeF4xQ2QgptqbVAmWcMtqFbwMSXR4BDwe1Jffy-8X8xfi16MI919bSmB7HQG~l5ctZB02RuJYZZhfZ6fb5eQqR7pvuBNK4tQn-5QVevXwpgTSI2K54BXPtod9vwMDHm-q-rkthsGfplc-KHtW9Cg~IjMD7wF0-kNapO1KaAIE0eLBnbY6-QwmXLPa6j5Dnqq8UaoRirU5oGcejdT6PBtsfPFt9aU38TPzYEuYoDn6NQG5CkmEPO~T7jC3g__') no-repeat center;
+        url('images/quote_cover.png') no-repeat center;
     background-size: cover;
     height: 450px;
     width: 100%;
