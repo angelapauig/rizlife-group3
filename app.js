@@ -62,7 +62,7 @@ gsap.from('.animate-hisWorksec', {
         toggleActions: 'play none none none',
         once: true
     },
-    duration: 1,
+    duration: 0.8,
     autoAlpha: 0,
     y: -100,
     stagger: 0.2
@@ -75,7 +75,7 @@ gsap.from('.animate-cardsec', {
         toggleActions: 'play none none none',
         once: true
     },
-    duration: 1,
+    duration: 0.8,
     autoAlpha: 0,
     y: -100,
     stagger: 0.1
