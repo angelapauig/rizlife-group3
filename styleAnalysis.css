@@ -175,17 +175,18 @@ body {
   }
 
   .hero__content h1 {
-    font-size: 50px; /* Reduce font size for smaller screens */
+    font-size: 40px; /* Reduce font size for smaller screens */
   }
 
   .magnifying_glass {
-    width: 60px;          /* Adjust image width */
+    width: 50px;          /* Adjust image width */
     transform: translateY(-20px); /* Adjust vertical position */
   }
 
   .hero__img {
-    width: 50%; /* Maintain the same percentage if that works, or adjust as needed */
-  }
+    width: 50%;       /* Use a percentage width to prevent overflow */
+    max-width: 100%;  /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* This helps maintain the image aspect ratio */  }
 }
 
 /* Question Section */
