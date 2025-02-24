@@ -180,6 +180,11 @@
     height: 290px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 0.5rem; /* Reduce the bottom margin */
+    transition: transform 0.3s ease;
+}
+
+.essay__img, .essaycover__img:hover {
+    transform: translateY(-5px);  /* A subtle hover effect if desired */
 }
 
 .essaycover__img {
