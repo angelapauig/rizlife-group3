@@ -237,6 +237,10 @@
     transition: transform 0.3s ease;
 }
 
+.firstcontext__img:hover, .secondcontext__img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
 @media screen and (max-width: 1100px) {
     html, body {
     width: 100%;
@@ -388,6 +392,10 @@
     top: 21px;
     z-index: 10;
     transition: transform 0.3s ease;
+}
+
+.essay__container img:hover {
+    transform: scale(1.1); /* Scales the image by 10% on hover */
 }
 
 .right-container img {
