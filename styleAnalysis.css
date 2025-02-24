@@ -206,9 +206,9 @@ body {
   margin: 0 auto; /* centers the container horizontally */
   background: linear-gradient(
       180deg, 
-      rgba(167, 95, 2, 0.596) 0%,
-      rgba(109, 63, 2, 0.596) 35%,
-      rgba(167, 95, 2, 0.596) 100%
+      rgba(114, 65, 1, 0.596) 0%,
+      rgba(117, 75, 21, 0.596) 35%,
+      rgba(110, 68, 13, 0.596) 100%
     ),
     url('images/image 34.png') no-repeat center;
   background-size: cover;
@@ -307,9 +307,9 @@ h2 {
   margin: 0 auto; /* centers the container horizontally */
   background: linear-gradient(
       180deg, 
-      rgba(167, 95, 2, 0.596) 0%,
-      rgba(109, 63, 2, 0.596) 35%,
-      rgba(167, 95, 2, 0.596) 100%
+      rgba(114, 65, 1, 0.596) 0%,
+      rgba(117, 75, 21, 0.596) 35%,
+      rgba(110, 68, 13, 0.596) 100%
     ),
     url('images/image 41.png') no-repeat center;
   background-size: cover;
@@ -394,9 +394,9 @@ h2 {
   margin: 0 auto; /* centers the container horizontally */
   background: linear-gradient(
       180deg, 
-      rgba(167, 95, 2, 0.596) 0%,
-      rgba(109, 63, 2, 0.596) 35%,
-      rgba(167, 95, 2, 0.596) 100%
+      rgba(114, 65, 1, 0.596) 0%,
+      rgba(117, 75, 21, 0.596) 35%,
+      rgba(110, 68, 13, 0.596) 100%
     ),
     url('images/image 49.png') no-repeat center;
   background-size: cover;
