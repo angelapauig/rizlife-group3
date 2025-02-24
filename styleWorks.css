@@ -238,7 +238,7 @@
 }
 
 .firstcontext__img:hover, .secondcontext__img:hover {
-    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    transform: translateY(-5px);  /* A subtle hover effect if desired */
 }
 
 @media screen and (max-width: 1100px) {
@@ -395,7 +395,7 @@
 }
 
 .essay__container img:hover {
-    transform: scale(1.1); /* Scales the image by 10% on hover */
+    transform: translateY(-5px);  /* A subtle hover effect if desired */
 }
 
 .right-container img {
