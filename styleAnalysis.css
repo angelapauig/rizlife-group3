@@ -140,15 +140,15 @@ body {
 
 /* Magnifying glass image styling */
 .magnifying_glass {
-  width: 80px;  /* Adjust width as needed */
+  width: 70px;  /* Adjust width as needed */
   height: auto;
   display: inline-block;
-  transform: translateY(-55px);
+  transform: translateY(-30px);
 }
 
 /* h1 styling */
 .hero__content h1 {
-  font-size: 65px;
+  font-size: 68px;
   text-align: left; /* Ensures h1 text is left-aligned */
   margin: 0;
   /* Optionally, if you want the h1 to take up remaining space: */
