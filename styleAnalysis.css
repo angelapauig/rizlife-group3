@@ -148,7 +148,7 @@ body {
 
 /* h1 styling */
 .hero__content h1 {
-  font-size: 90px;
+  font-size: 70px;
   text-align: left; /* Ensures h1 text is left-aligned */
   margin: 0;
   /* Optionally, if you want the h1 to take up remaining space: */
@@ -157,7 +157,7 @@ body {
 
 /* Rizal header image styling */
 .hero__img {
-  width: 50%;  /* Adjust width as needed */
+  width: 40%;  /* Adjust width as needed */
   height: auto;
   display: inline-block;
 }
@@ -175,7 +175,7 @@ body {
   }
 
   .hero__content h1 {
-    font-size: 35px; /* Reduce font size for smaller screens */
+    font-size: 38px; /* Reduce font size for smaller screens */
   }
 
   .magnifying_glass {
@@ -184,7 +184,7 @@ body {
   }
 
   .hero__img {
-    width: 50%;       /* Use a percentage width to prevent overflow */
+    width: 40%;       /* Use a percentage width to prevent overflow */
     max-width: 100%;  /* Ensure the image doesn't exceed its container */
     object-fit: contain; /* This helps maintain the image aspect ratio */  }
 }
