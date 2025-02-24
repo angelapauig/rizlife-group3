@@ -175,11 +175,11 @@ body {
   }
 
   .hero__content h1 {
-    font-size: 40px; /* Reduce font size for smaller screens */
+    font-size: 35px; /* Reduce font size for smaller screens */
   }
 
   .magnifying_glass {
-    width: 50px;          /* Adjust image width */
+    width: 30px;          /* Adjust image width */
     transform: translateY(-20px); /* Adjust vertical position */
   }
 
@@ -223,7 +223,7 @@ body {
     }
 
     .analysis__question {
-        font-size: 30px; /* Reduce font size for readability */
+        font-size: 25px; /* Reduce font size for readability */
         margin-bottom: 30px; /* Adjust bottom margin */
         text-align: justify;
     }
@@ -508,7 +508,7 @@ h2 {
   }
   
   /* If desired, adjust font sizes or padding for better readability */
-  .principle h3 {
+  .principle h2 {
     font-size: 18px;
     margin-top: 100px;
   }
@@ -534,7 +534,7 @@ h2 {
   }
 
   .guide__heading {
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 30px;
   }
 
