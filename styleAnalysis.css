@@ -205,10 +205,9 @@ body {
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
   background:  linear-gradient(
-      180deg, 
-      rgba(179, 118, 97, 0.575) 0%,
-      rgba(179, 118, 97, 0.575) 35%,
-      rgba(179, 118, 97, 0.575) 100%
+        180deg,
+        rgba(157, 127, 94, 0.6),
+        rgba(157, 127, 94, 0.6)
     ),
     url('images/image 34.png') no-repeat center;
   background-size: cover;
