@@ -289,6 +289,55 @@ h2 {
     padding: 10px;
 }
 
+/* Contemporary Challenges Section */
+.contempt {
+  margin-top: 50px;
+  padding: 0 10px;
+  /* Optionally, you can set a max-width to constrain the layout */
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image container with consistent width */
+.contempt__image-container {
+  position: relative;
+  height: 170px;
+  width: 100%;
+  margin: 0 auto; /* centers the container horizontally */
+  background: linear-gradient(
+      180deg, 
+      rgba(167, 95, 2, 0.596) 0%,
+      rgba(109, 63, 2, 0.596) 35%,
+      rgba(167, 95, 2, 0.596) 100%
+    ),
+    url('images/image 41.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading styling */
+.contempt__heading {
+  font-size: 35px;
+  color: var(--white);
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+/* Core principles section with the same width */
+.contempt__principles {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin: 55px auto 0 auto; /* centers this section and gives it a top margin */
+  width: 100%;  /* same width as the image container */
+  margin-bottom: 55px;
+}
+
 .corecon__img {
     width: 180px; /* Adjust size accordingly */
     height: auto;
