@@ -201,7 +201,7 @@ body {
 /* Image container with consistent width */
 .core__image-container {
   position: relative;
-  height: 170px;
+  height: 190px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
   background: linear-gradient(
@@ -302,7 +302,7 @@ h2 {
 /* Image container with consistent width */
 .contempt__image-container {
   position: relative;
-  height: 170px;
+  height: 190px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
   background: linear-gradient(
@@ -389,7 +389,7 @@ h2 {
 /* Image container with consistent width */
 .guide__image-container {
   position: relative;
-  height: 170px;
+  height: 190px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
   background: linear-gradient(
