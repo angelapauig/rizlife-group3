@@ -204,12 +204,7 @@ body {
   height: 200px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
-  background:  linear-gradient(
-      180deg, 
-      rgba(167, 95, 2, 0.596) 0%,
-      rgba(109, 63, 2, 0.596) 35%,
-      rgba(167, 95, 2, 0.596) 100%
-    ),
+  background:  linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)),
     url('images/image 34.png') no-repeat center;
   background-size: cover;
   display: flex;
