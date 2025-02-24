@@ -162,6 +162,32 @@ body {
   display: inline-block;
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-top: 100px; /* Adjusted top margin */
+    padding: 0 10px;   /* Maintain padding if needed */
+  }
+
+  .hero__content {
+    flex-direction: row; /* Keep the same horizontal layout */
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero__content h1 {
+    font-size: 50px; /* Reduce font size for smaller screens */
+  }
+
+  .magnifying_glass {
+    width: 60px;          /* Adjust image width */
+    transform: translateY(-20px); /* Adjust vertical position */
+  }
+
+  .hero__img {
+    width: 50%; /* Maintain the same percentage if that works, or adjust as needed */
+  }
+}
+
 /* Question Section */
 .question {
     margin-top: 90px;
@@ -174,7 +200,7 @@ body {
 }
 
 .analysis__question {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     text-align: left; /* Left-aligns the text */
     justify-content: left;
@@ -183,8 +209,28 @@ body {
 
 .question p {
     font-size: 25px;
-    text-align: left; /* Left-aligns the text */
+    text-align: justify;
     justify-content: left;
+}
+
+/* Responsive adjustments for screen widths of 768px and below */
+@media screen and (max-width: 768px) {
+    .question {
+        margin-top: 70px; /* Slightly reduce top margin */
+        padding: 0 10px;  /* Keep same padding for consistency */
+        margin-bottom: 50px; /* Reduce bottom margin */
+    }
+
+    .analysis__question {
+        font-size: 30px; /* Reduce font size for readability */
+        margin-bottom: 30px; /* Adjust bottom margin */
+        text-align: justify;
+    }
+
+    .question p {
+        font-size: 20px; /* Reduce paragraph font size */
+        text-align: justify;
+    }
 }
 
 /* Core Principles Section */
@@ -422,6 +468,78 @@ h2 {
     z-index: 1;
     position: relative;
     padding: 0 50px;
+}
+
+@media screen and (max-width: 768px) {
+  /* For the core principles section, switch flex layout to column so items stack vertically */
+  .core__principles {
+    flex-direction: column;
+    align-items: center; /* Center each principle */
+    gap: 45px; /* Adjust gap between stacked items */
+  }
+  
+  /* Optionally, adjust the max-width of each principle to 100% or a percentage of the container */
+  .principle {
+    max-width: 100%;
+    width: 100%; /* or any preferred percentage */
+  }
+  
+  /* Adjust the image positioning if needed */
+  .core__img,
+  .coregood__img,
+  .coreeduc__img,
+  .corecon__img,
+  .corecontempt__img {
+    top: -40px; /* Slightly less offset on smaller screens */
+  }
+  
+  /* Similarly, for the Contemporary Challenges section, if you want to stack the principles */
+  .contempt__principles {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    margin-top: 30px;
+  }
+  
+  .contempt .principle {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  /* If desired, adjust font sizes or padding for better readability */
+  .principle h3 {
+    font-size: 18px;
+    margin-top: 100px;
+  }
+  
+  .principle p {
+    font-size: 18px;
+    margin-top: 130px;
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .guide__image-container,
+  .guide__container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .guide__container {
+    height: auto;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+  }
+
+  .guide__heading {
+    font-size: 28px;
+  }
+
+  .guide__container p {
+    font-size: 20px;
+    padding: 0 20px;
+  }
 }
 
 .footer {
