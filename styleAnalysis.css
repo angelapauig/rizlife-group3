@@ -204,7 +204,12 @@ body {
   height: 200px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
-  background:
+  background:  linear-gradient(
+      180deg, 
+      rgba(134, 118, 97, 0.575) 0%,
+      rgba(134, 118, 97, 0.575) 35%,
+      rgba(134, 118, 97, 0.575) 100%
+    ),
     url('images/image 34.png') no-repeat center;
   background-size: cover;
   display: flex;
@@ -300,7 +305,12 @@ h2 {
   height: 200px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
-  background:
+  background:  linear-gradient(
+      180deg, 
+      rgba(134, 118, 97, 0.575) 0%,
+      rgba(134, 118, 97, 0.575) 35%,
+      rgba(134, 118, 97, 0.575) 100%
+    ),
     url('images/image 41.png') no-repeat center;
   background-size: cover;
   display: flex;
@@ -382,7 +392,12 @@ h2 {
   height: 200px;
   width: 100%;
   margin: 0 auto; /* centers the container horizontally */
-  background:
+  background:  linear-gradient(
+      180deg, 
+      rgba(134, 118, 97, 0.575) 0%,
+      rgba(134, 118, 97, 0.575) 35%,
+      rgba(134, 118, 97, 0.575) 100%
+    ),
     url('images/image 49.png') no-repeat center;
   background-size: cover;
   display: flex;
