@@ -183,7 +183,7 @@
     transition: transform 0.3s ease;
 }
 
-.essay__img, .essaycover__img:hover {
+.essay__img:hover, .essaycover__img:hover {
     transform: translateY(-5px);  /* A subtle hover effect if desired */
 }
 
