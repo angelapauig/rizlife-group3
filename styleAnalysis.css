@@ -53,382 +53,94 @@
 }
 
 @media screen and (max-width: 768px) {
-    body.active {
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-
-    .navbar__link {
-        display: flex;
+    /* Hero Section Adjustments */
+    .hero__content {
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        text-align: center;
     }
 
+    .hero__content h1 {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero__img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .magnifying_glass {
+        width: 60px;
+        transform: translateY(0);
+    }
+
+    /* Question Section Adjustments */
+    .analysis__question {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .question p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* Core Principles Section Adjustments */
+    .core__principles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .principle {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .core__img, .coregood__img, .coreeduc__img {
+        width: 120px;
+        top: -40px;
+    }
+
+    /* Contemporary Challenges Section Adjustments */
+    .contempt__principles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .corecontempt__img, .coregood__img, .corecon__img {
+        width: 120px;
+        top: -40px;
+    }
+
+    /* Guiding Contemporary Society Section Adjustments */
+    .guide__container p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    /* General Adjustments for Smaller Screens */
     .navbar__menu {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 100px);
-        position: absolute;
-        width: 100%;
-        top: -1000px;
+        display: none;
+    }
+
+    .navbar__toggle {
+        display: block;
     }
 
     .navbar__menu.active {
-        top: 100%;
-        opacity: 1;
-        z-index: 99;
-        height: 100vh;
-        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         background: var(--darkbrown);
-    }
-
-    .navbar__toggle .bar {
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        transition: all 0.3s ease-in-out;
-        background: var(--white);
-        display: block;
-        cursor: pointer;
-    }
-    
-    #mobile-menu {
         position: absolute;
-        top: 15%;
-        right: 5%;
-        transform: translate(5%, 20%);
+        top: 60px;
+        width: 100%;
     }
 
-    #mobile-menu.is-active .bar:nth-child(2) {
-        opacity: 0;
+    .navbar__link {
+        padding: 10px;
+        font-size: 1.2rem;
     }
-
-    #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-}
-
-/* General Styles */
-body {
-    background-color: #f5e3c3;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-/* Hero Section */
-.hero {
-  margin-top: 150px;
-  position: relative;
-  max-width: 1300px;
-  padding: 0 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero__content {
-  display: flex;
-  align-items: center; /* Vertically centers items */
-  justify-content: space-between; /* Space between items */
-  gap: 10px; /* Adjust gap between elements as needed */
-  color: var(--redbrown);
-}
-
-/* Magnifying glass image styling */
-.magnifying_glass {
-  width: 90px;  /* Adjust width as needed */
-  height: auto;
-  display: inline-block;
-  transform: translateY(-55px);
-}
-
-/* h1 styling */
-.hero__content h1 {
-  font-size: 90px;
-  text-align: left; /* Ensures h1 text is left-aligned */
-  margin: 0;
-  /* Optionally, if you want the h1 to take up remaining space: */
-  flex-grow: 1;
-}
-
-/* Rizal header image styling */
-.hero__img {
-  width: 50%;  /* Adjust width as needed */
-  height: auto;
-  display: inline-block;
-}
-
-/* Question Section */
-.question {
-    margin-top: 90px;
-    padding: 0 10px;
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--redbrown);
-    margin-bottom: 70px;
-}
-
-.analysis__question {
-    font-size: 45px;
-    font-weight: bold;
-    text-align: left; /* Left-aligns the text */
-    justify-content: left;
-    margin-bottom: 20px;
-}
-
-.question p {
-    font-size: 25px;
-    text-align: left; /* Left-aligns the text */
-    justify-content: left;
-}
-
-/* Core Principles Section */
-/* Parent container */
-.core {
-  margin-top: 50px;
-  padding: 0 10px;
-  /* Optionally, you can set a max-width to constrain the layout */
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Image container with consistent width */
-.core__image-container {
-  position: relative;
-  height: 200px;
-  width: 100%;
-  margin: 0 auto; /* centers the container horizontally */
-  background:  linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)),
-    url('images/image 34.png') no-repeat center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Heading styling */
-.core__heading {
-  font-size: 35px;
-  color: var(--white);
-  text-align: center;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  position: relative;
-}
-
-/* Core principles section with the same width */
-.core__principles {
-  display: flex;
-  justify-content: center;
-  gap: 45px;
-  margin: 55px auto 0 auto; /* centers this section and gives it a top margin */
-  width: 100%;  /* same width as the image container */
-  margin-bottom: 55px;
-}
-
-h2 {
-    font-size: 28px;
-    text-transform: none;
-}
-
-.principle:hover {
-    transform: translateY(-5px);  /* A subtle hover effect if desired */
-}
-
-.principle {
-    background-color: var(--brown);
-    padding: 20px;
-    max-width: 430px;
-    text-align: center;
-    color: #F7E6CF;
-    transition: transform 0.3s ease;
-    position: relative;
-}
-
-.core__img {
-    width: 154px; /* Adjust size accordingly */
-    height: auto;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: -50px; /* Moves the image upwards */
-    left: 50%;
-    transform: translateX(-50%); /* Centers the image */
-    padding: 10px;
-}
-
-.coregood__img {
-    width: 190px; /* Adjust size accordingly */
-    height: auto;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: -50px; /* Moves the image upwards */
-    left: 50%;
-    transform: translateX(-50%); /* Centers the image */
-    padding: 10px;
-}
-
-.coreeduc__img {
-    width: 170px; /* Adjust size accordingly */
-    height: auto;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: -50px; /* Moves the image upwards */
-    left: 50%;
-    transform: translateX(-50%); /* Centers the image */
-    padding: 10px;
-}
-
-/* Contemporary Challenges Section */
-.contempt {
-  margin-top: 50px;
-  padding: 0 10px;
-  /* Optionally, you can set a max-width to constrain the layout */
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Image container with consistent width */
-.contempt__image-container {
-  position: relative;
-  height: 200px;
-  width: 100%;
-  margin: 0 auto; /* centers the container horizontally */
-  background:  linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)),
-    url('images/image 41.png') no-repeat center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Heading styling */
-.contempt__heading {
-  font-size: 35px;
-  color: var(--white);
-  text-align: center;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  position: relative;
-}
-
-/* Core principles section with the same width */
-.contempt__principles {
-  display: flex;
-  justify-content: center;
-  gap: 45px;
-  margin: 55px auto 0 auto; /* centers this section and gives it a top margin */
-  width: 100%;  /* same width as the image container */
-  margin-bottom: 55px;
-}
-
-.corecon__img {
-    width: 180px; /* Adjust size accordingly */
-    height: auto;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: -50px; /* Moves the image upwards */
-    left: 50%;
-    transform: translateX(-50%); /* Centers the image */
-    padding: 10px;
-}
-
-.corecontempt__img {
-    width: 164px; /* Adjust size accordingly */
-    height: auto;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: -50px; /* Moves the image upwards */
-    left: 50%;
-    transform: translateX(-50%); /* Centers the image */
-    padding: 10px;
-}
-
-.principle h3 {
-    font-size: 20px;
-    font-weight: bold; /* ensures the heading is bold */
-    margin-top: 120px; /* Ensures text stays below the image */
-    margin-bottom: 10px;
-}
-
-.principle p {
-    font-size: 20px;
-    margin-top: 120px; /* Ensures text stays below the image */
-    margin-bottom: 10px;
-    line-height: 1.4;
-    text-align: justify;
-    padding: 0 10px;
-}
-
-/* Guiding Contemporary Society Section */
-.guide {
-    margin-top: 90px;
-    padding: 0 10px;
-    /* Optionally, you can set a max-width to constrain the layout */
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Image container with consistent width */
-.guide__image-container {
-  position: relative;
-  height: 200px;
-  width: 100%; 
-  margin: 0 auto; /* centers the container horizontally */
-  background:  linear-gradient(to right, rgba(80, 57, 8, 0.418), rgba(63, 37, 2, 0.452)),
-    url('images/image 49.png') no-repeat center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.guide__container {
-  position: relative;
-  height: 145px;
-  width: 100%;
-  margin: 0 auto; /* centers the container horizontally */
-  background-color: var(--brown);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-/* Heading styling */
-.guide__heading {
-  font-size: 35px;
-  color: var(--white);
-  text-align: center;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  position: relative;
-}
-
-.guide__container p {
-    font-size: 25px;
-    color: var(--white);
-    text-align: justify;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    position: relative;
-    padding: 0 50px;
-}
-
-.footer {
-    background: var(--darkbrown);
-    background-size: cover;
-    height: 60px;
-    width: 100%;
-    padding: 0.5rem calc((100vw - 1300px) / 2);
-    display: flex;
 }
