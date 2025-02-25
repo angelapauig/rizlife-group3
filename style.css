@@ -487,6 +487,42 @@ html, body {
     }
 }
 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  /* Styles for iPads in portrait mode */
+    html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+    }
+    
+    .hisWorks {
+        background: var(--palebrown);
+        color: var(--white);
+        padding: 8rem calc((100vw - 1100px) / 2) 1rem;
+        text-align: center;
+    }
+
+    .hisWorks__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .hisWorks__card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .firstwork__img, .secondwork__img, .thirdwork__img {
+        width: 50%;
+        height: 290px;
+        margin-bottom: 2rem;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
 /* Rizal Quote Section */
 .rizQuote {
     background: linear-gradient(
