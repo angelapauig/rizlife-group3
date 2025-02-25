@@ -534,9 +534,9 @@ h2 {
     margin-bottom: 30px;
   }
 
-  .guide__heading {
+  .guide__heading, .contempt__heading, .core__heading {
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
   }
 
   .guide__container p {
