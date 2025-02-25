@@ -337,7 +337,7 @@ html, body {
     .bibliography__img {
         margin: auto;
         width: 80%;
-        height: 55%;
+        height: 70%;
     }
 
     .bib__header {
@@ -520,7 +520,7 @@ html, body {
     }
 
     .firstwork__img, .secondwork__img, .thirdwork__img {
-        width: 57%;
+        width: 45%;
         height: 290px;
         margin-bottom: 2rem;
         border-radius: 10px 10px 0 0;
