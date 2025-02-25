@@ -192,7 +192,7 @@
     height: 290px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 0.5rem; /* Reduce the bottom margin */
-    transform: translateX(40px);
+    transform: translateX(90px);
 }
 
 @media screen and (max-width: 768px) {
