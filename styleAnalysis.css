@@ -175,7 +175,7 @@ body {
   }
 
   .hero__content h1 {
-    font-size: 40px; /* Reduce font size for smaller screens */
+    font-size: 33px; /* Reduce font size for smaller screens */
   }
 
   .magnifying_glass {
@@ -186,7 +186,8 @@ body {
   .hero__img {
     width: 45%;       /* Use a percentage width to prevent overflow */
     max-width: 100%;  /* Ensure the image doesn't exceed its container */
-    object-fit: contain; /* This helps maintain the image aspect ratio */  }
+    object-fit: contain; /* This helps maintain the image aspect ratio */  
+  }
 }
 
 /* Question Section */
@@ -223,7 +224,7 @@ body {
     }
 
     .analysis__question {
-        font-size: 25px; /* Reduce font size for readability */
+        font-size: 23px; /* Reduce font size for readability */
         margin-bottom: 30px; /* Adjust bottom margin */
         text-align: justify;
     }
@@ -453,7 +454,7 @@ h2 {
 
 /* Heading styling */
 .guide__heading {
-  font-size: 35px;
+  font-size: 25px;
   color: var(--white);
   text-align: center;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
