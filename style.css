@@ -252,8 +252,8 @@ html, body {
     }
 
     .introduction__img {
-        width: 50%;
-        height: 60%;
+        width: 35%;
+        height: 40%;
         margin: auto;
     }
     
@@ -270,8 +270,8 @@ html, body {
 
     .bibliography__img {
         margin: auto;
-        width: 50%;
-        height: 60%;
+        width: 35%;
+        height: 40%;
     }
 
     .bib__header {
@@ -377,8 +377,8 @@ html, body {
     }
 
     .introduction__img {
-        width: 35%;
-        height: 40%;
+        width: 55%;
+        height: 50%;
         margin: auto;
     }
     
@@ -395,8 +395,8 @@ html, body {
 
     .bibliography__img {
         margin: auto;
-        width: 35%;
-        height: 40%;
+        width: 55%;
+        height: 50%;
     }
 
     .bib__header {
