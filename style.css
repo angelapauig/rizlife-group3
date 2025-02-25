@@ -349,7 +349,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 768px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles for iPads in portrait mode */
     .bib__container {
         grid-template-columns: 1fr;
