@@ -351,6 +351,22 @@ html, body {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles for iPads in portrait mode */
+    .introduction__container {
+        grid-template-columns: 1fr;
+    }
+
+    .introduction__img {
+        width: 50%;
+        height: 60%;
+        margin: auto;
+    }
+    
+    .introduction__p {
+        font-size: clamp(1rem, 4vw, 1.2rem);  /* Adjusting the font size for smaller screens */
+        width: 100%;  /* Adjust the width to fit the content properly */
+        max-width: 100%;  /* Ensures the content doesn't exceed the screen size */
+    }
+    
     .bib__container {
         grid-template-columns: 1fr;
         text-align: center;
@@ -358,7 +374,8 @@ html, body {
 
     .bibliography__img {
         margin: auto;
-        width: 85%;
+        width: 55%;
+        height: 60%;
     }
 
     .bib__header {
