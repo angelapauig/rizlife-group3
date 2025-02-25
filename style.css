@@ -252,8 +252,8 @@ html, body {
     }
 
     .introduction__img {
-        width: 85%;
-        height: 100%;
+        width: 50%;
+        height: 60%;
         margin: auto;
     }
     
@@ -358,7 +358,8 @@ html, body {
 
     .bibliography__img {
         margin: auto;
-        width: 80%;
+        width: 50%;
+        height: 60%;
     }
 
     .bib__header {
