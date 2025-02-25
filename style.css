@@ -357,7 +357,7 @@ html, body {
     .bibliography__img {
         margin: auto;
         width: 80%;
-        height: 90%;
+        height: 100%;
     }
 
     .bib__header {
